@@ -1,5 +1,8 @@
 # smart_llamas
-Can you put 🎓🦙 here yes, good, GitHub is cool with Unicode. (Of course it is, but never hurts to prove it.)
+
+Hi! I'm sure this file needs a lot of revision. One place to start might be a FAQ? Then Gemma can help!
+
+"raw" vs. "cooked" food isn't a huge difference now, since Voiceflow has a chef who knows how to keep llamas happy.
 
 # What is this?
 it's a minimum viable product that I hope will be useful to cool people I hang out with.
@@ -46,4 +49,6 @@ Kanban was brought over from Japanese automotive and engineering firms in the 19
 Currently:
 - norrisaftcc: Dev Lead and Project Manager (I would just dev, but I need to work on my skills.)
 - ProfFisherJenn: QA and on-site customer (two very different hats, but a good mix.)
+
+Can you put 🎓🦙 here yes, good, GitHub is cool with Unicode. (Of course it is, but never hurts to prove it.)
 
