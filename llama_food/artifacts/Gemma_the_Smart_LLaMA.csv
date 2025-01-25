@@ -1,0 +1,10 @@
+canvas id,canvas name,block id,block name,block content,block color
+"6793fbfc52bfdd46f63863f9","Home","66e49586b7fe3a4683f5b1ba","Welcome","Hi there, this is Genna the Smart LLaMa. Thanks for dropping by during my office hours!
+So what can I help you with? *chews contentedly*","#5b9fd7"
+"6793fbfc52bfdd46f63863f9","Home","6757547f4251b17634bb3be2","Apologize for incorrect answer","Oh sorry, what can I help you with?","#CB627B"
+"6793fbfc52bfdd46f63863f9","Home","67575b6c4251b17634bb3d30","No information found","Sorry, I can't remember anything about that.
+
+You might want to check my food, if I should. | Uh oh! I think I got confused.
+
+It could be colick again. Maybe check my food? | I'm having trouble recalling that at the moment. Maybe check my food?","#dc8879"
+"6793fbfc52bfdd46f63863f9","Home","675c865fe02dba813f320fe1","Prompt for new questions","How else can I help you?","#56b365"

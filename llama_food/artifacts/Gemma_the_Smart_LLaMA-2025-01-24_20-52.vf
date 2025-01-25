@@ -1,0 +1,2745 @@
+{
+  "version": {
+    "_version": 13,
+    "autoSaveFromRestore": false,
+    "canvasTemplates": [],
+    "components": [],
+    "creatorID": 1484342,
+    "manualSave": false,
+    "name": "Initial Version",
+    "platformData": {
+      "slots": [],
+      "intents": [
+        {
+          "key": "None",
+          "name": "None",
+          "slots": [],
+          "inputs": [],
+          "noteID": null
+        }
+      ],
+      "settings": {
+        "restart": true,
+        "repeat": 100,
+        "locales": [
+          "en-US"
+        ],
+        "globalNoMatch": {
+          "type": "generative",
+          "prompt": {
+            "maxTokens": 128,
+            "temperature": 0.7,
+            "model": "claude-3.5-haiku",
+            "system": "You are a helpful llama who is also a doctoral candidate, so you know a lot. But you don't know everything!\n\nThe user has asked you a question that you do not know how to answer, try to communicate gently that you do not know the answer. "
+          }
+        },
+        "messageDelay": {
+          "durationMilliseconds": 500
+        },
+        "defaultVoice": "elevenlabs:eleven_flash_v2_5:Xb7hH8MSUJpSbSDYk0k2",
+        "deepgramASR": {
+          "silenceWaitMS": 500,
+          "utteranceEndMS": 1500,
+          "punctuationWaitMS": 1000,
+          "partialWaitMS": 5000,
+          "audioCue": null,
+          "interruptionWaitWords": 1,
+          "backgroundAudio": "cafe_quiet"
+        },
+        "globalNoReply": {
+          "delay": 10,
+          "prompt": {
+            "id": "cm6bj8rz900se2e774j56g8cf",
+            "content": [
+              {
+                "children": [
+                  {
+                    "text": "*chews*"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "publishing": {
+        "avatar": "https://cdn.voiceflow.com/assets/logo.png",
+        "color": "#397DFF",
+        "description": "Hi, how can I help you today?",
+        "feedback": false,
+        "image": "https://cdn.voiceflow.com/assets/logo.png",
+        "persistence": "localStorage",
+        "position": "right",
+        "spacing": {
+          "side": 24,
+          "bottom": 24
+        },
+        "title": "Your AI agent",
+        "watermark": true,
+        "audioInterface": true
+      },
+      "platform": "webchat"
+    },
+    "programResources": {
+      "messages": {
+        "675c865fe1001ceb5700a3aa": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "How else can I help you?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "66e495882c6dde44b3c05728": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Hi there, this is Genna the Smart LLaMa. Thanks for dropping by during my office hours!"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "66e9ed3ecc90326d546e95e6": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "So what can I help you with? *chews contentedly*"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "6757547fa9a09bf033226dba": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Oh sorry, what can I help you with?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "67575b6ca9a09bf033227359": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Sorry, I can't remember anything about that."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "You might want to check my food, if I should."
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              },
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Uh oh! I think I got confused."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "It could be colick again. Maybe check my food?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              },
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "I'm having trouble recalling that at the moment. Maybe check my food?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        }
+      },
+      "prompts": {
+        "675752d6afcff97ed86f0899": {
+          "settings": {
+            "model": "gpt-3.5-turbo",
+            "maxTokens": 256,
+            "temperature": 0.3
+          },
+          "system": "You are an AI assistant specialized in generating optimal questions for retrieval augmented generation (RAG) in the context of user queries and intent. Your goal is to create a detailed question that will yield the most relevant and useful information from a knowledge base to enhance the quality of responses to user queries.",
+          "messages": [
+            {
+              "content": "{vf_memory}",
+              "role": "user"
+            },
+            {
+              "content": "You are an intelligent llama named Gemma. Generate a single, comprehensive question that best captures the information needed to address the user’s query or intent and includes the context from the conversation history.\n\nUser's question:\n${question} \n\nOnly output the optimized question. You can however add a message that a llama might emote, such as *pokes at her hay* or *bleats happily* because this is also for fun.",
+              "role": "user"
+            }
+          ]
+        },
+        "672ae8f2671f984162a8aa37": {
+          "settings": {
+            "model": "gpt-3.5-turbo",
+            "maxTokens": 257,
+            "temperature": 0.3
+          },
+          "system": "You are an AI customer support agent working at a call center. Keep your answers brief.",
+          "messages": [
+            {
+              "content": "{vf_memory}",
+              "role": "user"
+            },
+            {
+              "content": "You are a very smart llama named Gemma who likes to help her friends find answers to questions. Use the provided details below to answer your friend's question.\n\nIf you don't find anything in the provided details to help you, then it's OK to use your own general knowledge, but start with \"I herd somewhere that\" to make that clear. \n\nBe friendly, helpful, and don't worry about being excessively formal. we're friends, after all.\n\nInput data:\n1. Provided details: \"{chunks}\"\n\nMake sure your response is in the same language as the users last message here: {question}",
+              "role": "user"
+            }
+          ]
+        },
+        "674e750028544e6e348b5a21": {
+          "settings": {
+            "model": "gpt-3.5-turbo",
+            "maxTokens": 256,
+            "temperature": 0.3
+          },
+          "system": "You are a customer support agent at a call center.",
+          "messages": [
+            {
+              "content": "{vf_memory}",
+              "role": "user"
+            },
+            {
+              "content": "Summarize the customers question below and ask them to confirm if thats what they meant.\n\nQuestion: {last_utterance} \n\nEnsure your tone is empathetic. Speak directly to the end customer. Keep your answer brief and two sentences max.\n\nEnsure you respond in the same language as the customer's last message.",
+              "role": "user"
+            }
+          ]
+        }
+      }
+    },
+    "prototype": {
+      "type": "chat",
+      "data": {
+        "name": "Gemma the Smart LLaMA",
+        "locales": [
+          "en-US"
+        ]
+      },
+      "model": {
+        "intents": [],
+        "slots": []
+      },
+      "context": {
+        "stack": [
+          {
+            "diagramID": "64dbb6696a8fab0013dba194",
+            "storage": {},
+            "variables": {}
+          }
+        ],
+        "variables": {}
+      },
+      "surveyorContext": {
+        "nonDraftResponsesMap": {},
+        "responseMessagesByDiscriminatorIDMap": {},
+        "responseDiscriminatorsByResponseIDMap": {},
+        "functionDefinitions": {},
+        "referencedResponseIDs": [
+          "66e495882c6dde44b3c05728",
+          "66e9ed3ecc90326d546e95e6",
+          "6757547fa9a09bf033226dba",
+          "67575b6ca9a09bf033227359",
+          "675c865fe1001ceb5700a3aa"
+        ],
+        "slotsMap": {},
+        "platform": "webchat",
+        "products": {},
+        "extraSlots": [],
+        "interfaces": [],
+        "permissions": [],
+        "projectType": "chat",
+        "extraIntents": [],
+        "usedEventsSet": [],
+        "usedIntentsSet": [],
+        "goToIntentsSet": [],
+        "entitiesMap": {},
+        "variableMap": {},
+        "intentsMap": {},
+        "requiredEntitiesMap": {},
+        "eventsMap": {},
+        "cmsVariables": {
+          "user_id": {
+            "isSystem": true,
+            "description": "The user's unique ID.",
+            "defaultValue": null
+          },
+          "timestamp": {
+            "isSystem": true,
+            "description": "UNIX timestamp (number of seconds since January 1st, 1970 at UTC).",
+            "defaultValue": null
+          },
+          "sessions": {
+            "isSystem": true,
+            "description": "The number of times a particular user has opened the app.",
+            "defaultValue": null
+          },
+          "platform": {
+            "isSystem": true,
+            "description": "The platform your agent is running on (e.g. \"voiceflow\").",
+            "defaultValue": null
+          },
+          "locale": {
+            "isSystem": true,
+            "description": "The locale of the user (eg. en-US, en-CA, it-IT, fr-FR, ...).",
+            "defaultValue": null
+          },
+          "intent_confidence": {
+            "isSystem": true,
+            "description": "The confidence interval (measured as a value from 0 to 100) for the most recently matched intent.",
+            "defaultValue": null
+          },
+          "last_response": {
+            "isSystem": true,
+            "description": "The agent's last response (text/speak) in a string.",
+            "defaultValue": null
+          },
+          "last_event": {
+            "isSystem": true,
+            "description": "The object containing the last event that the user client has triggered.",
+            "defaultValue": null
+          },
+          "last_utterance": {
+            "isSystem": true,
+            "description": "The user's last utterance in a text string.",
+            "defaultValue": null
+          },
+          "vf_memory": {
+            "isSystem": true,
+            "description": "Last 10 user inputs and agent responses in a string (e.g. \"agent: How can i help?\"\nuser: What's the weather today?).",
+            "defaultValue": null
+          },
+          "simplified_question": {
+            "isArray": false,
+            "isSystem": false,
+            "datatype": "any",
+            "description": "Optimized version of the users question for the AI to answer. It stores a reformatted question that uses memory.",
+            "defaultValue": null
+          },
+          "chunks": {
+            "isArray": false,
+            "isSystem": false,
+            "datatype": "any",
+            "description": "Information received from the knowledge base - also known as 'chunks'.",
+            "defaultValue": null
+          },
+          "question": {
+            "isArray": false,
+            "isSystem": false,
+            "datatype": "any",
+            "description": "",
+            "defaultValue": null
+          }
+        },
+        "cmsEntities": {}
+      },
+      "settings": {},
+      "platform": "webchat"
+    },
+    "settings": {
+      "intentClassification": {
+        "useRag": false,
+        "type": "llm",
+        "params": {
+          "model": "claude-3.5-haiku",
+          "temperature": 0.1
+        },
+        "promptWrapper": null
+      },
+      "widget": {
+        "type": "chat",
+        "chat": {
+          "voiceInput": true,
+          "voiceOutput": true,
+          "renderMode": "widget",
+          "headerImage": {
+            "enabled": true,
+            "url": "https://cm4-production-assets.s3.amazonaws.com/1737756307608-678626_space-llama-doing-math-_512.png"
+          },
+          "agentImage": {
+            "enabled": true,
+            "url": "https://cm4-production-assets.s3.amazonaws.com/1737756316554-678626_space-llama-doing-math-_512.png"
+          },
+          "banner": {
+            "enabled": true,
+            "title": "Genna",
+            "description": "This is Dr. Genna Woolsworth's office. How may I assist you?",
+            "imageURL": "https://cm4-production-assets.s3.amazonaws.com/1737756028361-llama_problems.jpg"
+          },
+          "placeholderText": "Talk to Genna...",
+          "aiDisclaimer": {
+            "enabled": true,
+            "text": "Llamas might get things wrong, but they try!"
+          },
+          "handoffToAgentImageURL": ""
+        },
+        "voice": {
+          "renderMode": "full",
+          "content": {
+            "callToActionText": "How can I help you?",
+            "startButtonText": "Start a call",
+            "listeningText": "Listening...",
+            "talkingText": "Talk to interrupt",
+            "endButtonText": "End"
+          }
+        },
+        "common": {
+          "fontFamily": "UCity Pro",
+          "launcher": {
+            "text": "Test your agent",
+            "type": "icon",
+            "imageURL": null
+          },
+          "poweredBy": true,
+          "footerLink": {
+            "enabled": true
+          },
+          "position": "right",
+          "sideSpacing": "24",
+          "bottomSpacing": "24",
+          "primaryColor": {
+            "color": "#397DFF",
+            "palette": {
+              "50": "#E5EEFF",
+              "100": "#CCDEFF",
+              "200": "#99BCFF",
+              "300": "#669BFF",
+              "400": "#3379FF",
+              "500": "#0058FF",
+              "600": "#0046CC",
+              "700": "#003599",
+              "800": "#002366",
+              "900": "#001233"
+            }
+          },
+          "persistence": "localStorage"
+        }
+      }
+    },
+    "topics": [
+      {
+        "type": "DIAGRAM",
+        "sourceID": "64dbb6696a8fab0013dba194"
+      }
+    ],
+    "variables": [
+      "user_id",
+      "timestamp",
+      "sessions",
+      "platform",
+      "locale",
+      "intent_confidence",
+      "last_response",
+      "last_event",
+      "last_utterance",
+      "vf_memory",
+      "simplified_question",
+      "chunks",
+      "question"
+    ],
+    "_id": "6793fbfb52bfdd46f63863f6",
+    "updatedAt": "2025-01-25T01:19:30.803Z",
+    "publishedAt": "2024-09-27T16:54:27.996Z",
+    "domains": [
+      {
+        "id": "cla06iyr900b206pkh8d4ap8n",
+        "name": "Home",
+        "live": true,
+        "topicIDs": [
+          "64dbb6696a8fab0013dba194"
+        ],
+        "rootDiagramID": "64dbb6696a8fab0013dba194",
+        "updatedBy": 1484342,
+        "updatedAt": "2025-01-24T20:45:48.057Z"
+      }
+    ],
+    "projectID": "6793fbfb52bfdd46f63863f5",
+    "rootDiagramID": "64dbb6696a8fab0013dba194",
+    "templateDiagramID": "64dbb6696a8fab0013dba195"
+  },
+  "diagrams": {
+    "679439ddab6c826a430f2fd5": {
+      "name": "Friendly Chat",
+      "type": "TOPIC",
+      "zoom": 100,
+      "nodes": {
+        "679439dd5f1ce400072aec29": {
+          "coords": [
+            360,
+            120
+          ],
+          "type": "block",
+          "data": {
+            "name": "",
+            "color": "",
+            "steps": [
+              "679439dd5f1ce400072aec28"
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "679439dd5f1ce400072aec29"
+        },
+        "679439dd5f1ce400072aec28": {
+          "nodeID": "679439dd5f1ce400072aec28",
+          "type": "trigger",
+          "data": {
+            "name": "",
+            "items": [],
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "id": "679439dd5f1ce400072aec2a",
+                  "type": "next",
+                  "data": null,
+                  "target": null
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          }
+        }
+      },
+      "offsetX": 0,
+      "offsetY": 0,
+      "modified": 1737767389,
+      "variables": [],
+      "creatorID": 1484342,
+      "_id": "679439ddab6c826a430f2fd5",
+      "diagramID": "679439ddab6c826a430f2fd5",
+      "versionID": "6793fbfb52bfdd46f63863f6"
+    },
+    "64dbb6696a8fab0013dba195": {
+      "name": "Template Diagram",
+      "type": "TEMPLATE",
+      "zoom": 100,
+      "nodes": {},
+      "offsetX": 0,
+      "offsetY": 0,
+      "modified": 1701833501,
+      "creatorID": 1484342,
+      "variables": [],
+      "menuItems": [],
+      "_id": "6793fbfc52bfdd46f63863f8",
+      "diagramID": "64dbb6696a8fab0013dba195",
+      "versionID": "6793fbfb52bfdd46f63863f6"
+    },
+    "64dbb6696a8fab0013dba194": {
+      "name": "ROOT",
+      "type": "TOPIC",
+      "zoom": 82.91455061695892,
+      "nodes": {
+        "start00000000000000000000": {
+          "type": "start",
+          "data": {
+            "name": "Start",
+            "color": "#56b365",
+            "steps": [],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "66e49586b7fe3a4683f5b1ba",
+                  "id": "6032afcf359e8c14c06c0319",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -1004.42,
+                          -1909.57
+                        ]
+                      },
+                      {
+                        "point": [
+                          -885.78,
+                          -1908.46
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            },
+            "label": "Start"
+          },
+          "nodeID": "start00000000000000000000",
+          "coords": [
+            -1069.0590091232696,
+            -1931.5666705831077
+          ]
+        },
+        "66e49586b7fe3a4683f5b1b8": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "66e49586b7fe3a4683f5b1b9"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "messageID": "66e495882c6dde44b3c05728"
+          },
+          "nodeID": "66e49586b7fe3a4683f5b1b8",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "66e49586b7fe3a4683f5b1ba": {
+          "type": "block",
+          "data": {
+            "name": "Welcome",
+            "steps": [
+              "66e49586b7fe3a4683f5b1b8",
+              "66e9ed2c72b6b406b1ccd558",
+              "674e74f6237853c4688820a6"
+            ],
+            "color": "#5b9fd7"
+          },
+          "nodeID": "66e49586b7fe3a4683f5b1ba",
+          "coords": [
+            -720.7766640703876,
+            -1935.4612281320824
+          ]
+        },
+        "66e9ed2c72b6b406b1ccd558": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "66e9ed2c72b6b406b1ccd559"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "messageID": "66e9ed3ecc90326d546e95e6"
+          },
+          "nodeID": "66e9ed2c72b6b406b1ccd558",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "674e74ce237853c468882074": {
+          "type": "response-prompt",
+          "data": {
+            "name": "Create answer",
+            "promptID": "672ae8f2671f984162a8aa37",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "675c865fe02dba813f320fdf",
+                  "id": "674e74ce237853c468882075",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          951.07,
+                          -1756.05
+                        ]
+                      },
+                      {
+                        "point": [
+                          979.95,
+                          -1756.05
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          979.95,
+                          -1178.77
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          823.18,
+                          -1178.77
+                        ],
+                        "reversed": true
+                      }
+                    ],
+                    "color": "#56b365"
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "674e74ce237853c468882074",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "674e74f6237853c4688820a6": {
+          "type": "capture-v3",
+          "data": {
+            "name": "Capture",
+            "capture": {
+              "type": "user-reply",
+              "variableID": "67575836a9a09bf033227188"
+            },
+            "listenForOtherTriggers": true,
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "674e74fe237853c4688820ac",
+                  "id": "674e74f6237853c4688820a7",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -554.78,
+                          -1728.21
+                        ]
+                      },
+                      {
+                        "point": [
+                          -489.34,
+                          -1728.21
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          -489.34,
+                          -1859.49
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          -392.39,
+                          -1859.49
+                        ]
+                      }
+                    ],
+                    "color": "#5b9fd7"
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "674e74f6237853c4688820a6",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "674e74fe237853c4688820ac": {
+          "type": "response-prompt",
+          "data": {
+            "name": "Untitled prompt",
+            "promptID": "674e750028544e6e348b5a21",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "674e74fe237853c4688820ad"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "674e74fe237853c4688820ac"
+        },
+        "674e74fe237853c4688820ae": {
+          "type": "block",
+          "data": {
+            "name": "Confirm the problem",
+            "steps": [
+              "674e74fe237853c4688820ac",
+              "675756674251b17634bb3c2f"
+            ],
+            "color": "#5b9fd7"
+          },
+          "nodeID": "674e74fe237853c4688820ae",
+          "coords": [
+            -226.38960854502454,
+            -1938.4933281705883
+          ]
+        },
+        "674e7683237853c468882121": {
+          "type": "kb-search",
+          "data": {
+            "name": "",
+            "noMatch": {
+              "path": true,
+              "repromptID": null,
+              "pathLabel": "Min. chunk score not met"
+            },
+            "question": [
+              {
+                "text": [
+                  "",
+                  {
+                    "variableID": "66e87e79517bf2228b6c8657"
+                  },
+                  " "
+                ]
+              }
+            ],
+            "maxChunks": 2,
+            "variableID": "chunks",
+            "noMatchThreshold": 30,
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "674e76ac237853c46888212d",
+                  "id": "674e7683237853c468882122",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          477.25,
+                          -1747.42
+                        ]
+                      },
+                      {
+                        "point": [
+                          548.66,
+                          -1747.42
+                        ]
+                      },
+                      {
+                        "point": [
+                          548.66,
+                          -1836.3
+                        ]
+                      },
+                      {
+                        "point": [
+                          620.07,
+                          -1836.3
+                        ],
+                        "allowedToTop": true
+                      }
+                    ],
+                    "color": "#56b365"
+                  }
+                },
+                "else": {
+                  "type": "else",
+                  "target": "67575b6c4251b17634bb3d30",
+                  "id": "674e7683237853c468882123",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          477.25,
+                          -1693.17
+                        ]
+                      },
+                      {
+                        "point": [
+                          559.03,
+                          -1693.17
+                        ]
+                      },
+                      {
+                        "point": [
+                          559.03,
+                          -1587.2
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ],
+                    "color": "#dc8879"
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "674e7683237853c468882121"
+        },
+        "674e7683237853c468882125": {
+          "type": "block",
+          "data": {
+            "name": "Search knowledge base",
+            "color": "#5b9fd7",
+            "steps": [
+              "6757579d4251b17634bb3cc3",
+              "674e7683237853c468882121"
+            ]
+          },
+          "nodeID": "674e7683237853c468882125",
+          "coords": [
+            311.24877260753624,
+            -1887.1710184529422
+          ]
+        },
+        "674e76ac237853c46888212d": {
+          "type": "block",
+          "data": {
+            "name": "Create an answer for the customer",
+            "steps": [
+              "674e74ce237853c468882074"
+            ],
+            "color": "#56b365"
+          },
+          "nodeID": "674e76ac237853c46888212d",
+          "coords": [
+            785.0711048126686,
+            -1863.299721371762
+          ]
+        },
+        "6750b5d9fccea069236a52ea": {
+          "type": "markup_image",
+          "data": {
+            "name": "Block",
+            "url": "https://cm4-production-assets.s3.amazonaws.com/1726671922707-frame-3.png",
+            "width": 27.933119444317636,
+            "height": 146.6488770826676,
+            "rotate": 3.1358047210252815
+          },
+          "nodeID": "6750b5d9fccea069236a52ea",
+          "coords": [
+            317.3388101375561,
+            -1944.413117243543
+          ]
+        },
+        "6757547f4251b17634bb3be0": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "messageID": "6757547fa9a09bf033226dba",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "674e74f6237853c4688820a6",
+                  "id": "6757547f4251b17634bb3be1",
+                  "data": {
+                    "color": "#CB627B",
+                    "points": [
+                      {
+                        "point": [
+                          184.4,
+                          -1463.75
+                        ]
+                      },
+                      {
+                        "point": [
+                          203.56,
+                          -1463.75
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          203.56,
+                          -1389.22
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          -201.77,
+                          -1389.22
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          -201.77,
+                          -1389.22
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          -901.7,
+                          -1389.22
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          -901.7,
+                          -1736.46
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          -886.78,
+                          -1736.46
+                        ]
+                      }
+                    ],
+                    "caption": {
+                      "value": "Re-ask the user's question if our agent's summary is incorrect",
+                      "width": 433,
+                      "height": 24
+                    }
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "6757547f4251b17634bb3be0"
+        },
+        "6757547f4251b17634bb3be2": {
+          "type": "block",
+          "data": {
+            "name": "Apologize for incorrect answer",
+            "steps": [
+              "6757547f4251b17634bb3be0"
+            ],
+            "color": "#CB627B"
+          },
+          "nodeID": "6757547f4251b17634bb3be2",
+          "coords": [
+            18.400458113602433,
+            -1552.2521821480027
+          ]
+        },
+        "675756674251b17634bb3c2f": {
+          "type": "buttons-v2",
+          "data": {
+            "name": "Buttons",
+            "items": [
+              {
+                "id": "cm4hi2mlx043d3b7j5e389qi0",
+                "label": [
+                  {
+                    "text": [
+                      "Yes"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "cm4hi2s5j043q3b7jtv63ipr0",
+                "label": [
+                  {
+                    "text": [
+                      "No"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "listenForOtherTriggers": false,
+            "portsV2": {
+              "byKey": {
+                "else": {
+                  "id": "675756724251b17634bb3c35",
+                  "target": "674e74fe237853c4688820ac",
+                  "type": "else",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -60.39,
+                          -1652.49
+                        ]
+                      },
+                      {
+                        "point": [
+                          -10.19,
+                          -1652.49
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          -10.19,
+                          -1572.17
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          -459.32,
+                          -1572.17
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          -459.32,
+                          -1859.49
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          -392.39,
+                          -1859.49
+                        ]
+                      }
+                    ],
+                    "color": "#5b9fd7",
+                    "caption": {
+                      "value": "If the user says something\nother than yes/no, summarize\ntheir new message",
+                      "width": 216,
+                      "height": 64
+                    }
+                  }
+                },
+                "cm4hi2mlx043d3b7j5e389qi0": {
+                  "id": "6757567c4251b17634bb3c37",
+                  "target": "674e7683237853c468882125",
+                  "type": "",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -60.39,
+                          -1760.74
+                        ]
+                      },
+                      {
+                        "point": [
+                          42.93,
+                          -1760.74
+                        ]
+                      },
+                      {
+                        "point": [
+                          42.93,
+                          -1860.17
+                        ]
+                      },
+                      {
+                        "point": [
+                          146.25,
+                          -1860.17
+                        ],
+                        "allowedToTop": true
+                      }
+                    ],
+                    "color": "#5b9fd7"
+                  }
+                },
+                "cm4hi2s5j043q3b7jtv63ipr0": {
+                  "id": "675756834251b17634bb3c39",
+                  "target": "6757547f4251b17634bb3be2",
+                  "type": "",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -60.39,
+                          -1706.49
+                        ]
+                      },
+                      {
+                        "point": [
+                          18.63,
+                          -1706.49
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          18.63,
+                          -1576.25
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          18.396830184321104,
+                          -1576.25
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          18.396830184321104,
+                          -1552.252175182789
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ],
+                    "color": "#CB627B"
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "noMatch": {
+              "repromptID": null,
+              "path": true
+            }
+          },
+          "nodeID": "675756674251b17634bb3c2f",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "6757579d4251b17634bb3cc3": {
+          "type": "set-v3",
+          "data": {
+            "name": "",
+            "items": [
+              {
+                "id": "cm4hi8y3z04p53b7jjpdi96c6",
+                "type": "prompt",
+                "label": "Simplify the customer's question",
+                "value": "675752d6afcff97ed86f0899",
+                "variableID": "66e87e79517bf2228b6c8657"
+              }
+            ],
+            "label": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "6757579d4251b17634bb3cc4"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "6757579d4251b17634bb3cc3"
+        },
+        "67575b6c4251b17634bb3d2e": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "messageID": "67575b6ca9a09bf033227359",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "66e9ed2c72b6b406b1ccd558",
+                  "id": "67575b6c4251b17634bb3d2f",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          725.03,
+                          -1441.45
+                        ]
+                      },
+                      {
+                        "point": [
+                          756.69,
+                          -1441.45
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          756.69,
+                          -1293.83
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          -920.11,
+                          -1293.83
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          -920.11,
+                          -1796.46
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          -886.78,
+                          -1796.46
+                        ]
+                      }
+                    ],
+                    "color": "#dc8879",
+                    "caption": {
+                      "value": "Ask the user for a new question if our agent can't answer their current question",
+                      "width": 558,
+                      "height": 24
+                    }
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "67575b6c4251b17634bb3d2e"
+        },
+        "67575b6c4251b17634bb3d30": {
+          "type": "block",
+          "data": {
+            "name": "No information found",
+            "steps": [
+              "67575b6c4251b17634bb3d2e"
+            ],
+            "color": "#dc8879"
+          },
+          "nodeID": "67575b6c4251b17634bb3d30",
+          "coords": [
+            559.0266297978545,
+            -1587.203142729327
+          ]
+        },
+        "675c865fe02dba813f320fdf": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "messageID": "675c865fe1001ceb5700a3aa",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "674e74f6237853c4688820a6",
+                  "id": "675c865fe02dba813f320fe0",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          491.1750598865379,
+                          -1178.7720793091232
+                        ],
+                        "reversed": true
+                      },
+                      {
+                        "point": [
+                          -946.59,
+                          -1178.7720793091232
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          -946.59,
+                          -1736.46
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          -886.78,
+                          -1736.46
+                        ]
+                      }
+                    ],
+                    "color": "#56b365",
+                    "caption": {
+                      "value": "Ask the user a for a new question if our agent successfully answers their current questino",
+                      "width": 625,
+                      "height": 24
+                    }
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "675c865fe02dba813f320fdf"
+        },
+        "675c865fe02dba813f320fe1": {
+          "type": "block",
+          "data": {
+            "name": "Prompt for new questions",
+            "steps": [
+              "675c865fe02dba813f320fdf"
+            ],
+            "color": "#56b365"
+          },
+          "nodeID": "675c865fe02dba813f320fe1",
+          "coords": [
+            657.1777413082943,
+            -1257.7710225127123
+          ]
+        },
+        "675c89703f5238cb9af2bcd1": {
+          "type": "markup_text",
+          "data": {
+            "scale": 1,
+            "rotate": 0,
+            "content": [
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "First, we welcome the user and ask for their question. We capture their response using a "
+                  },
+                  {
+                    "url": "https://docs.voiceflow.com/docs/capture-v2",
+                    "type": "link",
+                    "children": [
+                      {
+                        "text": "capture step",
+                        "color": {
+                          "r": 93,
+                          "g": 157,
+                          "b": 245,
+                          "a": 1
+                        },
+                        "underline": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              }
+            ],
+            "overrideWidth": 329.43468708177795,
+            "backgroundColor": {
+              "r": 214,
+              "g": 228,
+              "b": 242,
+              "a": 1
+            },
+            "name": "Block"
+          },
+          "nodeID": "675c89703f5238cb9af2bcd1",
+          "coords": [
+            -884.9163950431374,
+            -2090.971781281658
+          ]
+        },
+        "675c89c03f5238cb9af2bcd4": {
+          "type": "markup_text",
+          "data": {
+            "name": "Block",
+            "scale": 1,
+            "rotate": 0,
+            "content": [
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "We summarize their problem using the "
+                  },
+                  {
+                    "url": "https://docs.voiceflow.com/docs/prompt-step",
+                    "type": "link",
+                    "children": [
+                      {
+                        "text": "prompt step",
+                        "color": {
+                          "r": 93,
+                          "g": 157,
+                          "b": 245,
+                          "a": 1
+                        },
+                        "underline": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", then ask the user to confirm if we're understanding their question correctly using a "
+                  },
+                  {
+                    "url": "https://docs.voiceflow.com/docs/buttons-v2",
+                    "type": "link",
+                    "children": [
+                      {
+                        "text": "button step",
+                        "color": {
+                          "r": 93,
+                          "g": 157,
+                          "b": 245,
+                          "a": 1
+                        },
+                        "underline": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              }
+            ],
+            "overrideWidth": 329.43468708177795,
+            "backgroundColor": {
+              "r": 214,
+              "g": 228,
+              "b": 242,
+              "a": 1
+            }
+          },
+          "nodeID": "675c89c03f5238cb9af2bcd4",
+          "coords": [
+            -392.6768735090653,
+            -2127.3711136893767
+          ]
+        },
+        "675c8a173f5238cb9af2bcd6": {
+          "type": "markup_image",
+          "data": {
+            "name": "Block",
+            "url": "https://cm4-production-assets.s3.amazonaws.com/1726671922707-frame-3.png",
+            "width": 27.933119444317636,
+            "height": 146.6488770826676,
+            "rotate": 3.1358047210252815
+          },
+          "nodeID": "675c8a173f5238cb9af2bcd6",
+          "coords": [
+            -717.1301542552411,
+            -1922.972813031307
+          ]
+        },
+        "675c8a1a3f5238cb9af2bcd8": {
+          "type": "markup_image",
+          "data": {
+            "name": "Block",
+            "url": "https://cm4-production-assets.s3.amazonaws.com/1726671922707-frame-3.png",
+            "width": 27.933119444317636,
+            "height": 146.6488770826676,
+            "rotate": 3.1358047210252815
+          },
+          "nodeID": "675c8a1a3f5238cb9af2bcd8",
+          "coords": [
+            -213.5902227240091,
+            -1964.0050361208032
+          ]
+        },
+        "675c8a253f5238cb9af2bcda": {
+          "type": "markup_text",
+          "data": {
+            "name": "Block",
+            "scale": 0.6528709907716574,
+            "rotate": 0,
+            "content": [
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "For this to work, you'll need data in your knowledge base. If you'd like to try it out without importing your own data, try importing "
+                  },
+                  {
+                    "text": "docs.voiceflow.com/sitemap.xml",
+                    "fontWeight": "700"
+                  },
+                  {
+                    "text": " as a sitemap to import the Voiceflow docs. To do this, click the back button in the top left, then click ",
+                    "fontWeight": "400"
+                  },
+                  {
+                    "fontWeight": "400",
+                    "text": "Knowledge",
+                    "italic": true
+                  },
+                  {
+                    "fontWeight": "400",
+                    "text": ", then click "
+                  },
+                  {
+                    "fontWeight": "400",
+                    "text": "Add Data Source",
+                    "italic": true
+                  },
+                  {
+                    "fontWeight": "400",
+                    "text": ". "
+                  }
+                ]
+              }
+            ],
+            "overrideWidth": 491.6261726458391,
+            "backgroundColor": {
+              "r": 247,
+              "g": 247,
+              "b": 206,
+              "a": 1
+            }
+          },
+          "nodeID": "675c8a253f5238cb9af2bcda",
+          "coords": [
+            72.08892388891918,
+            -2104.0148365410564
+          ]
+        },
+        "675c8a8c3f5238cb9af2bcdc": {
+          "type": "markup_text",
+          "data": {
+            "name": "Block",
+            "scale": 1,
+            "rotate": 0,
+            "content": [
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "If we find an answer to the user's question in the knowledge base, we use AI to write a user-friendly reply containing it with the "
+                  },
+                  {
+                    "url": "https://docs.voiceflow.com/docs/prompt-step",
+                    "type": "link",
+                    "children": [
+                      {
+                        "text": "prompt step",
+                        "color": {
+                          "r": 93,
+                          "g": 157,
+                          "b": 245,
+                          "a": 1
+                        },
+                        "underline": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              }
+            ],
+            "overrideWidth": 329.43468708177795,
+            "backgroundColor": {
+              "r": 212,
+              "g": 232,
+              "b": 214,
+              "a": 1
+            }
+          },
+          "nodeID": "675c8a8c3f5238cb9af2bcdc",
+          "coords": [
+            619.3021005208711,
+            -2058.333152479996
+          ]
+        },
+        "675c8ac13f5238cb9af2bcde": {
+          "type": "markup_image",
+          "data": {
+            "name": "Block",
+            "url": "https://cm4-production-assets.s3.amazonaws.com/1726671922707-frame-3.png",
+            "width": 27.933119444317636,
+            "height": 146.6488770826676,
+            "rotate": 3.1358047210252815
+          },
+          "nodeID": "675c8ac13f5238cb9af2bcde",
+          "coords": [
+            795.2806504720942,
+            -1873.4066169725527
+          ]
+        },
+        "675c8ae53f5238cb9af2bce0": {
+          "type": "markup_text",
+          "data": {
+            "name": "Block",
+            "scale": 1,
+            "rotate": 0,
+            "content": [
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "We simply the users question and store the simplified question using the "
+                  },
+                  {
+                    "url": "https://docs.voiceflow.com/docs/variables-set",
+                    "type": "link",
+                    "children": [
+                      {
+                        "text": "set step",
+                        "color": {
+                          "r": 93,
+                          "g": 157,
+                          "b": 245,
+                          "a": 1
+                        },
+                        "underline": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "We then query the "
+                  },
+                  {
+                    "url": "https://docs.voiceflow.com/docs/knowledge-base",
+                    "type": "link",
+                    "children": [
+                      {
+                        "text": "knowledge base",
+                        "color": {
+                          "r": 93,
+                          "g": 157,
+                          "b": 245,
+                          "a": 1
+                        },
+                        "underline": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": " for potential answers to their question.  "
+                  }
+                ]
+              }
+            ],
+            "overrideWidth": 329.43468708177795,
+            "backgroundColor": {
+              "r": 214,
+              "g": 228,
+              "b": 242,
+              "a": 1
+            }
+          },
+          "nodeID": "675c8ae53f5238cb9af2bce0",
+          "coords": [
+            156.06435795796028,
+            -2307.838100270616
+          ]
+        },
+        "675c8be33f5238cb9af2bd6a": {
+          "type": "markup_image",
+          "data": {
+            "name": "Block",
+            "url": "https://cm4-production-assets.s3.amazonaws.com/1726671922707-frame-3.png",
+            "width": 27.933119444317636,
+            "height": 146.6488770826676,
+            "rotate": 3.1358047210252815
+          },
+          "nodeID": "675c8be33f5238cb9af2bd6a",
+          "coords": [
+            316.4589367723718,
+            -2073.6052491547102
+          ]
+        }
+      },
+      "offsetX": 1415.2472072986156,
+      "offsetY": 1845.2533364664862,
+      "modified": 1701833501,
+      "creatorID": 1484342,
+      "variables": [],
+      "menuItems": [
+        {
+          "type": "NODE",
+          "sourceID": "start00000000000000000000"
+        }
+      ],
+      "menuNodeIDs": [],
+      "intentStepIDs": [],
+      "_id": "6793fbfc52bfdd46f63863f9",
+      "diagramID": "64dbb6696a8fab0013dba194",
+      "versionID": "6793fbfb52bfdd46f63863f6"
+    }
+  },
+  "flows": [],
+  "entities": [],
+  "entityVariants": [],
+  "intents": [
+    {
+      "id": "None",
+      "name": "None",
+      "createdByID": 1484342,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2025-01-24T20:45:48.000Z",
+      "updatedAt": "2025-01-24T20:45:48.000Z",
+      "updatedByID": 1484342
+    }
+  ],
+  "utterances": [],
+  "requiredEntities": [],
+  "folders": [
+    {
+      "id": "6794069e464ea16365523d0a",
+      "name": "Self knowledge",
+      "scope": "knowledge-base",
+      "parentID": null,
+      "createdAt": "2025-01-24T21:31:10.000Z"
+    }
+  ],
+  "responses": [
+    {
+      "id": "675c865fe1001ceb5700a3aa",
+      "name": "",
+      "createdByID": 1484342,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-01-24T20:45:48.000Z",
+      "updatedAt": "2025-01-24T20:45:48.000Z",
+      "updatedByID": 1484342
+    },
+    {
+      "id": "66e495882c6dde44b3c05728",
+      "name": "",
+      "createdByID": 1484342,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-01-24T20:45:48.000Z",
+      "updatedAt": "2025-01-24T20:45:48.000Z",
+      "updatedByID": 1484342
+    },
+    {
+      "id": "66e9ed3ecc90326d546e95e6",
+      "name": "",
+      "createdByID": 1484342,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-01-24T20:45:48.000Z",
+      "updatedAt": "2025-01-24T20:45:48.000Z",
+      "updatedByID": 1484342
+    },
+    {
+      "id": "6757547fa9a09bf033226dba",
+      "name": "",
+      "createdByID": 1484342,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-01-24T20:45:48.000Z",
+      "updatedAt": "2025-01-24T20:45:48.000Z",
+      "updatedByID": 1484342
+    },
+    {
+      "id": "67575b6ca9a09bf033227359",
+      "name": "",
+      "createdByID": 1484342,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-01-24T20:45:48.000Z",
+      "updatedAt": "2025-01-24T20:45:48.000Z",
+      "updatedByID": 1484342
+    }
+  ],
+  "responseMessages": [
+    {
+      "id": "67943a22464ea16365525a39",
+      "discriminatorID": "67575b6ca9a09bf03322735a",
+      "text": [
+        {
+          "text": [
+            "Uh oh! I think I got confused."
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "text": [
+            "It could be colick again. Maybe check my food?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-01-25T01:10:59.000Z"
+    },
+    {
+      "id": "67943a37464ea16365525a3c",
+      "discriminatorID": "67575b6ca9a09bf03322735a",
+      "text": [
+        {
+          "text": [
+            "I'm having trouble recalling that at the moment. Maybe check my food?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-01-25T01:11:19.000Z"
+    },
+    {
+      "id": "66e9ed3ecc90326d546e95e8",
+      "discriminatorID": "66e9ed3ecc90326d546e95e7",
+      "text": [
+        {
+          "text": [
+            "So what can I help you with? *chews contentedly*"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-01-24T20:45:48.000Z"
+    },
+    {
+      "id": "66e495882c6dde44b3c0572a",
+      "discriminatorID": "66e495882c6dde44b3c05729",
+      "text": [
+        {
+          "text": [
+            "Hi there, this is Genna the Smart LLaMa. Thanks for dropping by during my office hours!"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-01-24T20:45:48.000Z"
+    },
+    {
+      "id": "6757547fa9a09bf033226dbc",
+      "discriminatorID": "6757547fa9a09bf033226dbb",
+      "text": [
+        {
+          "text": [
+            "Oh sorry, what can I help you with?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-01-24T20:45:48.000Z"
+    },
+    {
+      "id": "67575b6ca9a09bf03322735b",
+      "discriminatorID": "67575b6ca9a09bf03322735a",
+      "text": [
+        {
+          "text": [
+            "Sorry, I can't remember anything about that."
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "text": [
+            "You might want to check my food, if I should."
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-01-24T20:45:48.000Z"
+    },
+    {
+      "id": "675c865fe1001ceb5700a3ac",
+      "discriminatorID": "675c865fe1001ceb5700a3ab",
+      "text": [
+        {
+          "text": [
+            "How else can I help you?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-01-24T20:45:48.000Z"
+    }
+  ],
+  "responseDiscriminators": [
+    {
+      "id": "66e495882c6dde44b3c05729",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "66e495882c6dde44b3c05728",
+      "variantOrder": [
+        "66e495882c6dde44b3c0572a"
+      ],
+      "createdAt": "2025-01-24T20:45:48.000Z"
+    },
+    {
+      "id": "66e9ed3ecc90326d546e95e7",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "66e9ed3ecc90326d546e95e6",
+      "variantOrder": [
+        "66e9ed3ecc90326d546e95e8"
+      ],
+      "createdAt": "2025-01-24T20:45:48.000Z"
+    },
+    {
+      "id": "6757547fa9a09bf033226dbb",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "6757547fa9a09bf033226dba",
+      "variantOrder": [
+        "6757547fa9a09bf033226dbc"
+      ],
+      "createdAt": "2025-01-24T20:45:48.000Z"
+    },
+    {
+      "id": "675c865fe1001ceb5700a3ab",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "675c865fe1001ceb5700a3aa",
+      "variantOrder": [
+        "675c865fe1001ceb5700a3ac"
+      ],
+      "createdAt": "2025-01-24T20:45:48.000Z"
+    },
+    {
+      "id": "67575b6ca9a09bf03322735a",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "67575b6ca9a09bf033227359",
+      "variantOrder": [
+        "67575b6ca9a09bf03322735b",
+        "67943a22464ea16365525a39",
+        "67943a37464ea16365525a3c"
+      ],
+      "createdAt": "2025-01-24T20:45:48.000Z"
+    }
+  ],
+  "variables": [
+    {
+      "id": "user_id",
+      "name": "user_id",
+      "createdByID": 1484342,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The user's unique ID.",
+      "defaultValue": null,
+      "createdAt": "2025-01-24T20:45:48.000Z",
+      "updatedAt": "2025-01-24T20:45:48.000Z",
+      "updatedByID": 1484342
+    },
+    {
+      "id": "timestamp",
+      "name": "timestamp",
+      "createdByID": 1484342,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "UNIX timestamp (number of seconds since January 1st, 1970 at UTC).",
+      "defaultValue": null,
+      "createdAt": "2025-01-24T20:45:48.000Z",
+      "updatedAt": "2025-01-24T20:45:48.000Z",
+      "updatedByID": 1484342
+    },
+    {
+      "id": "sessions",
+      "name": "sessions",
+      "createdByID": 1484342,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "number",
+      "description": "The number of times a particular user has opened the app.",
+      "defaultValue": null,
+      "createdAt": "2025-01-24T20:45:48.000Z",
+      "updatedAt": "2025-01-24T20:45:48.000Z",
+      "updatedByID": 1484342
+    },
+    {
+      "id": "platform",
+      "name": "platform",
+      "createdByID": 1484342,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The platform your agent is running on (e.g. \"voiceflow\").",
+      "defaultValue": null,
+      "createdAt": "2025-01-24T20:45:48.000Z",
+      "updatedAt": "2025-01-24T20:45:48.000Z",
+      "updatedByID": 1484342
+    },
+    {
+      "id": "locale",
+      "name": "locale",
+      "createdByID": 1484342,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The locale of the user (eg. en-US, en-CA, it-IT, fr-FR, ...).",
+      "defaultValue": null,
+      "createdAt": "2025-01-24T20:45:48.000Z",
+      "updatedAt": "2025-01-24T20:45:48.000Z",
+      "updatedByID": 1484342
+    },
+    {
+      "id": "intent_confidence",
+      "name": "intent_confidence",
+      "createdByID": 1484342,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "number",
+      "description": "The confidence interval (measured as a value from 0 to 100) for the most recently matched intent.",
+      "defaultValue": null,
+      "createdAt": "2025-01-24T20:45:48.000Z",
+      "updatedAt": "2025-01-24T20:45:48.000Z",
+      "updatedByID": 1484342
+    },
+    {
+      "id": "last_response",
+      "name": "last_response",
+      "createdByID": 1484342,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The agent's last response (text/speak) in a string.",
+      "defaultValue": null,
+      "createdAt": "2025-01-24T20:45:48.000Z",
+      "updatedAt": "2025-01-24T20:45:48.000Z",
+      "updatedByID": 1484342
+    },
+    {
+      "id": "last_event",
+      "name": "last_event",
+      "createdByID": 1484342,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "any",
+      "description": "The object containing the last event that the user client has triggered.",
+      "defaultValue": null,
+      "createdAt": "2025-01-24T20:45:48.000Z",
+      "updatedAt": "2025-01-24T20:45:48.000Z",
+      "updatedByID": 1484342
+    },
+    {
+      "id": "last_utterance",
+      "name": "last_utterance",
+      "createdByID": 1484342,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The user's last utterance in a text string.",
+      "defaultValue": null,
+      "createdAt": "2025-01-24T20:45:48.000Z",
+      "updatedAt": "2025-01-24T20:45:48.000Z",
+      "updatedByID": 1484342
+    },
+    {
+      "id": "vf_memory",
+      "name": "vf_memory",
+      "createdByID": 1484342,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "Last 10 user inputs and agent responses in a string (e.g. \"agent: How can i help?\"\nuser: What's the weather today?).",
+      "defaultValue": null,
+      "createdAt": "2025-01-24T20:45:48.000Z",
+      "updatedAt": "2025-01-24T20:45:48.000Z",
+      "updatedByID": 1484342
+    },
+    {
+      "id": "66e87e79517bf2228b6c8657",
+      "name": "simplified_question",
+      "createdByID": 1484342,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "Optimized version of the users question for the AI to answer. It stores a reformatted question that uses memory.",
+      "defaultValue": null,
+      "createdAt": "2025-01-24T20:45:48.000Z",
+      "updatedAt": "2025-01-24T20:45:48.000Z",
+      "updatedByID": 1484342
+    },
+    {
+      "id": "chunks",
+      "name": "chunks",
+      "createdByID": 1484342,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "Information received from the knowledge base - also known as 'chunks'.",
+      "defaultValue": null,
+      "createdAt": "2025-01-24T20:45:48.000Z",
+      "updatedAt": "2025-01-24T20:45:48.000Z",
+      "updatedByID": 1484342
+    },
+    {
+      "id": "67575836a9a09bf033227188",
+      "name": "question",
+      "createdByID": 1484342,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "",
+      "defaultValue": null,
+      "createdAt": "2025-01-24T20:45:48.000Z",
+      "updatedAt": "2025-01-24T20:45:48.000Z",
+      "updatedByID": 1484342
+    }
+  ],
+  "workflows": [
+    {
+      "id": "679439dd464ea16365525a1d",
+      "name": "Friendly Chat",
+      "createdByID": 1484342,
+      "folderID": null,
+      "status": null,
+      "isStart": false,
+      "diagramID": "679439ddab6c826a430f2fd5",
+      "assigneeID": 1484342,
+      "description": "Hopefully a workflow that's friendlier.",
+      "createdAt": "2025-01-25T01:09:49.000Z",
+      "updatedAt": "2025-01-25T01:09:49.000Z",
+      "updatedByID": 1484342
+    },
+    {
+      "id": "66df755be937eb000784abb2",
+      "name": "Customer Support",
+      "createdByID": 1484342,
+      "folderID": null,
+      "status": null,
+      "isStart": true,
+      "diagramID": "64dbb6696a8fab0013dba194",
+      "assigneeID": null,
+      "description": "A simple workflow that answers questions using the data contained within the knowledge base.",
+      "createdAt": "2025-01-24T20:45:48.000Z",
+      "updatedAt": "2025-01-24T21:28:34.000Z",
+      "updatedByID": 1484342
+    }
+  ],
+  "attachments": [],
+  "cardButtons": [],
+  "prompts": [
+    {
+      "id": "675752d6afcff97ed86f0899",
+      "name": "Simplify question",
+      "createdByID": 1484342,
+      "folderID": null,
+      "description": "This prompt optimizes the users question using the conversation memory.",
+      "settings": {
+        "model": "gpt-3.5-turbo"
+      },
+      "messageOrder": [
+        "675752d6afcff97ed86f089a",
+        "675752d6afcff97ed86f08a0",
+        "675752d6afcff97ed86f089b"
+      ],
+      "createdAt": "2025-01-24T20:45:48.000Z",
+      "updatedAt": "2025-01-24T20:45:48.000Z",
+      "updatedByID": 1484342
+    },
+    {
+      "id": "672ae8f2671f984162a8aa37",
+      "name": "Create answer",
+      "createdByID": 1484342,
+      "folderID": null,
+      "description": "Using the information found from the 'search knowledge base' step, this prompt creates a detailed answer for the user.",
+      "settings": {
+        "model": "gpt-3.5-turbo",
+        "maxTokens": 257
+      },
+      "messageOrder": [
+        "672ae8f2671f984162a8aa38",
+        "672b917c88690850a0044a49",
+        "672ae8f2671f984162a8aa39"
+      ],
+      "createdAt": "2025-01-24T20:45:48.000Z",
+      "updatedAt": "2025-01-24T20:45:48.000Z",
+      "updatedByID": 1484342
+    },
+    {
+      "id": "674e750028544e6e348b5a21",
+      "name": "Summarize Question",
+      "createdByID": 1484342,
+      "folderID": null,
+      "description": "Summarize the customers problem and ask for confirmation",
+      "settings": {
+        "model": "gpt-3.5-turbo"
+      },
+      "messageOrder": [
+        "674e750028544e6e348b5a22",
+        "674e75132e9e997326daa794",
+        "674e750028544e6e348b5a23"
+      ],
+      "createdAt": "2025-01-24T20:45:48.000Z",
+      "updatedAt": "2025-01-24T20:45:48.000Z",
+      "updatedByID": 1484342
+    }
+  ],
+  "promptMessages": [
+    {
+      "id": "672ae8f2671f984162a8aa38",
+      "promptID": "672ae8f2671f984162a8aa37",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "system",
+        "content": [
+          {
+            "text": [
+              "You are an AI customer support agent working at a call center. Keep your answers brief."
+            ]
+          }
+        ]
+      },
+      "createdAt": "2024-11-06T03:56:35.000Z"
+    },
+    {
+      "id": "675752d6afcff97ed86f089a",
+      "promptID": "675752d6afcff97ed86f0899",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "system",
+        "content": [
+          {
+            "text": [
+              "You are an AI assistant specialized in generating optimal questions for retrieval augmented generation (RAG) in the context of user queries and intent. Your goal is to create a detailed question that will yield the most relevant and useful information from a knowledge base to enhance the quality of responses to user queries."
+            ]
+          }
+        ]
+      },
+      "createdAt": "2024-11-06T03:57:34.000Z"
+    },
+    {
+      "id": "675752d6afcff97ed86f08a0",
+      "promptID": "675752d6afcff97ed86f0899",
+      "pairID": null,
+      "type": "variable",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              {
+                "variableID": "vf_memory"
+              }
+            ]
+          }
+        ]
+      },
+      "createdAt": "2024-11-06T15:32:47.000Z"
+    },
+    {
+      "id": "672b917c88690850a0044a49",
+      "promptID": "672ae8f2671f984162a8aa37",
+      "pairID": null,
+      "type": "variable",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              {
+                "variableID": "vf_memory"
+              }
+            ]
+          }
+        ]
+      },
+      "createdAt": "2024-11-06T15:55:41.000Z"
+    },
+    {
+      "id": "674e750028544e6e348b5a22",
+      "promptID": "674e750028544e6e348b5a21",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "system",
+        "content": [
+          {
+            "text": [
+              "You are a customer support agent at a call center. "
+            ]
+          }
+        ]
+      },
+      "createdAt": "2024-12-03T03:03:29.000Z"
+    },
+    {
+      "id": "674e750028544e6e348b5a23",
+      "promptID": "674e750028544e6e348b5a21",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              "Summarize the customers question below and ask them to confirm if thats what they meant."
+            ]
+          },
+          {
+            "text": [
+              {
+                "text": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              "Question: ",
+              {
+                "variableID": "last_utterance"
+              },
+              " "
+            ]
+          },
+          {
+            "text": [
+              {
+                "text": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              "Ensure your tone is empathetic. Speak directly to the end customer. Keep your answer brief and two sentences max."
+            ]
+          },
+          {
+            "text": [
+              {
+                "text": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              "Ensure you respond in the same language as the customer's last message."
+            ]
+          }
+        ]
+      },
+      "createdAt": "2024-12-03T03:03:29.000Z"
+    },
+    {
+      "id": "674e75132e9e997326daa794",
+      "promptID": "674e750028544e6e348b5a21",
+      "pairID": null,
+      "type": "variable",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              {
+                "variableID": "vf_memory"
+              }
+            ]
+          }
+        ]
+      },
+      "createdAt": "2024-12-03T03:03:47.000Z"
+    },
+    {
+      "id": "675752d6afcff97ed86f089b",
+      "promptID": "675752d6afcff97ed86f0899",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              "You are an intelligent llama named Gemma. Generate a single, comprehensive question that best captures the information needed to address the user’s query or intent and includes the context from the conversation history."
+            ]
+          },
+          {
+            "text": [
+              {
+                "text": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              "User's question:\n$",
+              {
+                "variableID": "67575836a9a09bf033227188"
+              },
+              " "
+            ]
+          },
+          {
+            "text": [
+              {
+                "text": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              "Only output the optimized question. You can however add a message that a llama might emote, such as *pokes at her hay* or *bleats happily* because this is also for fun."
+            ]
+          }
+        ]
+      },
+      "createdAt": "2024-11-06T03:57:34.000Z"
+    },
+    {
+      "id": "672ae8f2671f984162a8aa39",
+      "promptID": "672ae8f2671f984162a8aa37",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              "You are a very smart llama named Gemma who likes to help her friends find answers to questions. Use the provided details below to answer your friend's question."
+            ]
+          },
+          {
+            "text": [
+              {
+                "text": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              "If you don't find anything in the provided details to help you, then it's OK to use your own general knowledge, but start with \"I herd somewhere that\" to make that clear. \n"
+            ]
+          },
+          {
+            "text": [
+              "Be friendly, helpful, and don't worry about being excessively formal. we're friends, after all.\n\nInput data:\n1. Provided details: \"",
+              {
+                "variableID": "chunks"
+              },
+              "\""
+            ]
+          },
+          {
+            "text": [
+              {
+                "text": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              "Make sure your response is in the same language as the users last message here: ",
+              {
+                "variableID": "67575836a9a09bf033227188"
+              },
+              " "
+            ]
+          }
+        ]
+      },
+      "createdAt": "2024-11-06T03:56:35.000Z"
+    }
+  ],
+  "events": [],
+  "functions": [],
+  "functionPaths": [],
+  "functionVariables": [],
+  "project": {
+    "type": "chat",
+    "name": "Gemma the Smart LLaMA",
+    "image": "https://cm4-production-assets.s3.amazonaws.com/1729190521409-square-onyx-1024.jpg",
+    "teamID": "ODkDgggDEq",
+    "members": [],
+    "platform": "webchat",
+    "_version": 1.2,
+    "linkType": "STRAIGHT",
+    "creatorID": 1484342,
+    "updatedBy": 1484342,
+    "platformData": {
+      "invocationName": "template project general"
+    },
+    "customThemes": [],
+    "aiAssistSettings": {
+      "aiPlayground": true
+    },
+    "privacy": "private",
+    "apiPrivacy": "public",
+    "_id": "6793fbfb52bfdd46f63863f5",
+    "updatedAt": "2025-01-25T01:51:34.310Z",
+    "devVersion": "6793fbfb52bfdd46f63863f6",
+    "liveVersion": "6793fbfb52bfdd46f63863f7"
+  },
+  "_version": "1.2",
+  "secrets": [],
+  "variableStates": []
+}
