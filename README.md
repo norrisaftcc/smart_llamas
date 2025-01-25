@@ -2,6 +2,10 @@
 
 Hi! I'm sure this file needs a lot of revision. One place to start might be a FAQ? Then Gemma can help!
 
+# where's Gemma's pen?
+it's a very comfy meadow at <a href="https://norrisaftcc.github.io/genna.html">Teacherbot's GitHub</a>
+
+# what does raw vs cooked food mean?
 "raw" vs. "cooked" food isn't a huge difference now, since Voiceflow has a chef who knows how to keep llamas happy.
 
 # What is this?
